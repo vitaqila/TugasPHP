@@ -106,7 +106,7 @@
 
             // Struktur kendali untuk menentukan apakah lulus atau remedial
             echo "<div class='result'>";
-            if ($nilai >= 70) {
+            if ($nilai > 70) {
                 echo "<p class='lulus'>Selamat, Anda Lulus!</p>";
             } else {
                 echo "<p class='remedial'>Maaf, Anda harus mengikuti ujian remedial</p>";
